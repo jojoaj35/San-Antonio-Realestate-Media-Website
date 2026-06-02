@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>San Antonio Real Estate Media — Icon Mark</title>
+  
+  <g fill="none" stroke="currentColor" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+    
+    <circle cx="100" cy="100" r="86"></circle>
+    
+    <path d="M100 28 L161 64 L161 136 L100 172 L39 136 L39 64 Z"></path>
+    
+    <circle cx="100" cy="100" r="24" fill="currentColor" stroke="none"></circle>
+  </g>
+</svg>
