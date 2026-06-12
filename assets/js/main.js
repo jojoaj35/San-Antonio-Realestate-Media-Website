@@ -127,14 +127,12 @@ const closeSheet = () => {
   sheet.classList.remove('open');
   document.body.style.overflow = '';
 };
-// Open from any [data-book] trigger
+// Any [data-book] trigger goes straight to the live booking portal
 document.querySelectorAll('[data-book]').forEach(el => {
   el.addEventListener('click', (e) => {
     e.preventDefault();
-    const pkg = el.dataset.book;
-    if (pkg && pkg !== 'true') selectPkg(pkg);
-    openSheet();
     setDrawer(false);
+    window.location.href = BOOKING_URL;
   });
 });
 if (scrim) scrim.addEventListener('click', closeSheet);
